@@ -1,0 +1,50 @@
+html {
+    background-color: #4CAF50;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #4CAF50;
+    margin: 0;
+    padding: 0;
+}
+
+center {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#GuessTheFruit {
+    font-size: 24px;
+    color: #333;
+}
+
+#AppleShadow {
+    background-color: white;
+    border-color: black;
+    border-width: 5px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+#FruitSelection {
+    padding: 8px;
+    font-size: 16px;
+    border-radius: 10px;
+}
+
+#SubmitButton,
+#Reset {
+    padding: 10px 20px;
+    margin-top: 20px;
+    font-size: 18px;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 50px;
+    border-color: black;
+}
+
+#SubmitButton:hover,
+#Reset:hover {
+    background-color: #45a049;
+}
