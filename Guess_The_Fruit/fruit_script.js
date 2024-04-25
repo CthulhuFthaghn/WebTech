@@ -14,7 +14,7 @@ function getRandomInt(max) {
 function CheckTheFruitSubmitted(){
     AppleShadow = document.getElementById("AppleShadow");
     console.log("in");
-    if(AppleShadow.src != "./GuessTheFruitImg/AppleShadow.png")
+    if(AppleShadow.src !== "./GuessTheFruitImg/AppleShadow.png")
     {
         console.log("On a return");
         console.log("V2");
