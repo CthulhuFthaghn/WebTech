@@ -57,7 +57,7 @@ function CheckTheFruitSubmitted(){
 
     console.log("L'image va être changée");
     var MomentaryPicture = GoofyFruit[getRandomInt(4)];
-    AppleShadow.src = "../GuessTheFruitImg/" + MomentaryPicture.toString();
+    AppleShadow.src = "https://cthulhufthaghn.github.io/WebTech/Guess_The_Fruit/GuessTheFruitImg/" + MomentaryPicture.toString();
     GoofyFruit = ["AppleKiwi.png", "AppleBanana.png", "AppleOrange.png", "ApplePear.png","Apple.png"]; //We make sure the list is still full
     console.log("L'image a changée");
     return; 
