@@ -18,6 +18,7 @@ function CheckTheFruitSubmitted(){
     {
         console.log("On a return");
         console.log("V3");
+        console.log(AppleShadow.src);
         return; //Make the button spamming impossible as long as a fruit is revealed
     }
     Selection = document.getElementById("FruitSelection").value;
