@@ -13,7 +13,7 @@ function getRandomInt(max) {
 
 function CheckTheFruitSubmitted(){
     AppleShadow = document.getElementById("AppleShadow");
-    if(AppleShadow.src != "GuessTheFruitImg/AppleShadow.png")
+    if(AppleShadow.src != "\GuessTheFruitImg/AppleShadow.png")
     {
         return; //Make the button spamming impossible as long as a fruit is revealed
     }
@@ -53,7 +53,7 @@ function CheckTheFruitSubmitted(){
 
     
     var MomentaryPicture = GoofyFruit[getRandomInt(4)];
-    AppleShadow.src = "GuessTheFruitImg/" + MomentaryPicture.toString();
+    AppleShadow.src = "\GuessTheFruitImg/" + MomentaryPicture.toString();
     GoofyFruit = ["AppleKiwi.png", "AppleBanana.png", "AppleOrange.png", "ApplePear.png","Apple.png"]; //We make sure the list is still full
     return; 
 }
