@@ -17,7 +17,7 @@ function CheckTheFruitSubmitted(){
     if(AppleShadow.src !== "./GuessTheFruitImg/AppleShadow.png")
     {
         console.log("On a return");
-        console.log("V2");
+        console.log("V3");
         return; //Make the button spamming impossible as long as a fruit is revealed
     }
     Selection = document.getElementById("FruitSelection").value;
