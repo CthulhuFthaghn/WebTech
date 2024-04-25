@@ -13,7 +13,7 @@ function getRandomInt(max) {
 
 function CheckTheFruitSubmitted(){
     AppleShadow = document.getElementById("AppleShadow");
-    if(AppleShadow.src != "file:///C:/Users/arthu/OneDrive/Bureau/Dossier%20Drive/AA_ISEN/N2/Voyage/Web/WebProject/Guess_The_Fruit/GuessTheFruitImg/AppleShadow.png")
+    if(AppleShadow.src != "GuessTheFruitImg/AppleShadow.png")
     {
         return; //Make the button spamming impossible as long as a fruit is revealed
     }
